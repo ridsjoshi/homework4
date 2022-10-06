@@ -1,0 +1,32 @@
+<html>
+<head>
+  <title>Joe's Hotdogs</title>
+  <link rel="stylesheet" href="style.css"> 
+  <style type"text/css">
+    h1{font-size:60px; font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; text-align: center; color: rgb(119, 16, 33);
+;}
+  </style>
+</head>
+<body style="background-color: rgb(253, 233, 216);">
+  <h1>Welcome to Joe's Hotdogs!</h1>
+<script src="hotdog.js"></script>
+<div class = "info">
+  <p id = "Hotdog"></p>
+  <script>document.getElementById("Hotdog").innerHTML = "Hotdogs ordered: " + numHotdog;</script>
+  <p id = "Fries"></p>
+  <script>document.getElementById("Fries").innerHTML = "Fries ordered: " + numFries;</script>
+  <p id = "Sodas"></p>
+  <script>document.getElementById("Sodas").innerHTML = "Sodas ordered: " + numSodas;</script>
+  <p id = "subtotalNoTax"></p>
+  <script>document.getElementById("subtotalNoTax").innerHTML = "Subtotal without tax or potential discount: " + subtotal1;</script>
+  <p id = "discountVal"></p>
+  <script>document.getElementById("discountVal").innerHTML = "Discount: " + discount;</script>
+  <p id = "taxAmnt"></p>
+  <script>document.getElementById("taxAmnt").innerHTML = "Tax: " + tax;</script>
+</div>
+<div class = "finalPrice">
+  <p id = "total"></p>
+  <script>document.getElementById("total").innerHTML = "Final total: " + price;</script>
+</div>
+</body>
+</html>
